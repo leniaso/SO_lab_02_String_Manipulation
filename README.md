@@ -1,3 +1,8 @@
+##Hecho por:
+Alejandro Naranjo Cataño
+Simon Correa Rios
+
+
 # SO_lab_02_String_Manipulation
 
 Este documento explica las funciones que ya tenemos hechas, para que sea fácil
