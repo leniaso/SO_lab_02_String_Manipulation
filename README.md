@@ -1,6 +1,8 @@
 ##Hecho por:
-Alejandro Naranjo Cataño
-Simon Correa Rios
+
+Alejandro Naranjo Cataño.
+
+Simon Correa Rios.
 
 
 # SO_lab_02_String_Manipulation
