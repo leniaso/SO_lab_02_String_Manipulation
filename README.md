@@ -96,23 +96,6 @@ posición vía puntero.
  
 ---
  
-## Pendiente: conteo de vocales y consonantes
- 
-Falta una función que reciba el `[]rune` ya filtrado (antes de reversar o
-cambiar espacios) y devuelva:
- 
-- Cantidad de vocales (a, e, i, o, u — incluyendo con tilde, mayúsculas y
-  minúsculas cuentan igual)
-- Cantidad de cada vocal por separado, en orden: a, e, i, o, u
-- Cantidad de consonantes
-**Sugerencia de enfoque:** seguir el mismo patrón de recorrido con un solo
-puntero (similar a `cambiarEspacios`, ya que no se modifica el slice, solo
-se cuenta), con contadores separados para cada vocal y uno para
-consonantes. Ojo con las vocales acentuadas: hay que normalizarlas (por
-ejemplo, contar `'á'` como una "a") o llevar contadores que sumen tanto la
-versión con tilde como sin tilde en el mismo total.
- 
----
  
 ## Orden correcto de las operaciones en `main`
  
@@ -122,7 +105,7 @@ filtrado:
 1. `filtrarCaracteres` (una sola vez, al inicio)
 2. A partir de ahí, generar **copias independientes** para:
    - Reversar (`revertirCaracteres`)
-   - Contar vocales/consonantes (función pendiente, no modifica nada)
+   - Contar vocales/consonantes ()
    - Cambiar espacios por `_` (`cambiarEspacios`)
 3. Armar el string de salida final, separado por espacios, como pide el
    enunciado:
